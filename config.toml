@@ -1,0 +1,24 @@
+llm_provider = "ollama"
+ollama_model = "tiger-gemma-v2"
+gemini_model = "gemini-1.5-pro"
+openai_model = "gpt-4o"
+custom_openai_url = "https://api.openai.com/v1"
+custom_prompt = "Summarize this function in one line:"
+
+[custom_gemini_config]
+# Add Gemini-specific configuration options here
+
+[custom_openai_config]
+# Add OpenAI-specific configuration options here
+
+# Optional: Specify a custom output path for summaries
+# summary_output_path = "/path/to/custom/output"
+# Optional: Specify a custom filename format
+# Available placeholders: {folder}, {date}
+# summary_filename_format = "summary-{folder}-{date}.md"
+
+# Optional: Specify custom paths to ignore
+# custom_ignore_paths = ["node_modules", "target", "build"]
+
+# Optional: Specify custom code folder identifiers
+# code_identifiers = ["Cargo.toml", "package.json", "setup.py", "requirements.txt"]
